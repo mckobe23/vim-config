@@ -43,7 +43,6 @@ set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc
 set wildmenu                                                 " show a navigable menu for tab completion
 set wildmode=longest,list,full
 
-
 " My Options
 set hlsearch                                                 " highlight the matched words"
 set cursorline                                               " set current line high light"
@@ -51,11 +50,14 @@ set hidden                                                   " switch from buffe
 set cino=:0                                                  " make switch and case at the same line"
 autocmd FileType tagbar setlocal nocursorline nocursorcolumn " nocursor in tagbar list"
 set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp936         " check file encoding automatic"
+
 " python options
 filetype plugin on
-" let g:pydiction_location = '/home/qiaojing/.vim/bundle/pydiction/complete-dict'
+
 let g:pydiction_menu_height = 20
+let g:tagbar_left = 1
 set paste
+
 " paste as you copy
 set pastetoggle=<F10>
 " map - for swap two line
@@ -110,7 +112,7 @@ let g:jedi#show_call_signatures = "1"
 " power-line
 set laststatus=2
 set t_Co=256
-let g:Powerline_cache_enabled = 1 
+let g:Powerline_cache_enabled = 1
 let g:Powerline_mode_n = 'NORMAL'
 " let g:Powerline_theme = 'solarized256'
 let g:Powerline_colorscheme = 'solarized256'
