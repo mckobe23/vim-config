@@ -65,7 +65,7 @@ set pastetoggle=<F10>
 " map - for swap two line
 map - dd p
 imap <c-d> <esc>dd
-" map <C-w> "+y
+map <C-y> "+y
 
 
 
