@@ -10,3 +10,6 @@ sudo apt-get install ctags #用来支持Bundle插件快捷键
 
 
 sudo apt-get build-dep vim # 遇到vim里和系统寄存器兼容问题可以考虑安装
+
+js支持
+sudo apt-get install nodejs-legacy
