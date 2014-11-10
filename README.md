@@ -7,6 +7,7 @@ sudo apt-get install ctags #用来支持Bundle插件快捷键
 
 插件安装位置
 ~/.vim/Bundle
+打开一个vim, 运行:BundleInstall
 
 
 sudo apt-get build-dep vim # 遇到vim里和系统寄存器兼容问题可以考虑安装
